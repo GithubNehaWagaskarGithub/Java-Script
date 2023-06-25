@@ -1,0 +1,22 @@
+div{
+    height: 700px;
+    width: 100%;
+    background: radial-gradient(blue,purple);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+#div1{
+    height: 350px;
+    width: 300px;
+    background: linear-gradient(red,orange,black,brown);
+    border-radius: 30px;
+   
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; */
+}

@@ -1,0 +1,39 @@
+section{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(grey,white);
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: linear-gradient(purple,black);
+    color: white;
+}
+
+.cards img{
+    border-radius: 20px;
+}
+
+#btn1{
+    color: skyblue;
+}
+
+#btn1:focus{
+    color: red;
+
+}
+
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
